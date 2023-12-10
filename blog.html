@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Blog of HeroTube</title>
+    <style>
+        .fontStyle{
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class=" mx-auto px-3 md:px-5">
+    <header>
+        <Nav>
+            <div class="navbar py-5 border-b-2 bg-base-100">
+                <div class="navbar-start">
+                  <img src="images/Logo.png" alt="">
+                </div>
+                <div class="navbar-end">
+                  <a class="px-4 py-3 rounded bg-[#ff1f3d] font-normal text-white normal-case text-sm" href="index.html">phTube</a>
+                </div>
+              </div>
+        </Nav>
+    </header>
+
+
+
+    <main>
+
+      <div class="collapse my-7 collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" checked="checked" /> 
+        <div class="collapse-title text-xl font-medium">
+          Discuss the scope of var, let, and const.
+        </div>
+        <div class="collapse-content"> 
+          <p>var declarations are globally scoped or function scoped while let and const are block scoped. var variables can be updated and re-declared within its scope; let variables can be updated but not re-declared; const variables can neither be updated nor re-declared.</p>
+        </div>
+      </div>
+      <div class="collapse my-7 collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" /> 
+        <div class="collapse-title text-xl font-medium">
+          Tell us the use cases of null and undefined.
+        </div>
+        <div class="collapse-content"> 
+          <p>Undefined means the variable has been declared, but its value has not been assigned. Null means an empty value or a blank value. The typeof() operator returns undefined for an undefined variable. The typeof() operator returns the type as an object for a variable whose value is assigned as null.</p>
+        </div>
+      </div>
+      <div class="collapse my-7 collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" /> 
+        <div class="collapse-title text-xl font-medium">
+          What do you mean by REST API?
+        </div>
+        <div class="collapse-content"> 
+          <p>A REST API is an application programming interface that adheres to the constraints of REST architectural style and enables interaction with RESTful web services. Interconnected networks make up the web. A web service is a set of open protocols and standards used for exchanging data between client-server applications.</p>
+        </div>
+      </div>
+
+    </main>
+</body>
+</html>
